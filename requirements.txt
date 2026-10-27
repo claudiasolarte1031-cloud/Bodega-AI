@@ -1,0 +1,17 @@
+# Runtime and development dependencies for the Inventory ADK agent.
+# Install into the project virtual environment (never the system Python):
+#   uv pip install --python .venv\Scripts\python.exe -r requirements.txt     (Windows)
+#   uv pip install --python .venv/bin/python -r requirements.txt             (macOS / Linux)
+# Or simply run:  python setup_project.py
+
+# Agent framework: LlmAgent, function tools, callbacks, `adk web` / `adk run` CLI
+google-adk
+
+# Typed data models for products, suppliers, stock movements and tool results
+pydantic>=2
+
+# Loads MODEL_NAME, GOOGLE_API_KEY and other settings from the local .env file
+python-dotenv
+
+# Tests (offline by default; live model tests are opt-in with RUN_LIVE_TESTS=1)
+pytest

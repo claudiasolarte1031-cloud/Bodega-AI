@@ -1,0 +1,25 @@
+{
+  "suppliers": [
+    {
+      "supplier_id": "SUP-001",
+      "name": "Northwind Parts (fictional)",
+      "contact_email": "orders@northwind-parts.example.com",
+      "phone": "+1-555-0101",
+      "lead_time_days": 5
+    },
+    {
+      "supplier_id": "SUP-002",
+      "name": "Fabrikam Packaging (fictional)",
+      "contact_email": "sales@fabrikam-packaging.example.com",
+      "phone": "+1-555-0102",
+      "lead_time_days": 3
+    },
+    {
+      "supplier_id": "SUP-003",
+      "name": "Adventure Works Tools (fictional)",
+      "contact_email": "supply@adventure-works-tools.example.com",
+      "phone": "+1-555-0103",
+      "lead_time_days": 10
+    }
+  ]
+}

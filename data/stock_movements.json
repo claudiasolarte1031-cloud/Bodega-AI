@@ -1,0 +1,48 @@
+{
+  "movements": [
+    {
+      "movement_id": "MOV-000001",
+      "sku": "SKU-1002",
+      "movement_type": "issue",
+      "quantity_change": -4,
+      "quantity_before": 10,
+      "quantity_after": 6,
+      "reason": "Issued to maintenance team",
+      "performed_by": "Inventory Operator",
+      "timestamp": "2026-10-22T09:30:00Z"
+    },
+    {
+      "movement_id": "MOV-000002",
+      "sku": "SKU-1004",
+      "movement_type": "issue",
+      "quantity_change": -6,
+      "quantity_before": 15,
+      "quantity_after": 9,
+      "reason": "Issued to new warehouse staff",
+      "performed_by": "Inventory Operator",
+      "timestamp": "2026-10-23T10:15:00Z"
+    },
+    {
+      "movement_id": "MOV-000003",
+      "sku": "SKU-1006",
+      "movement_type": "issue",
+      "quantity_change": -25,
+      "quantity_before": 60,
+      "quantity_after": 35,
+      "reason": "Daily packing station refill",
+      "performed_by": "Inventory Operator",
+      "timestamp": "2026-10-24T16:45:00Z"
+    },
+    {
+      "movement_id": "MOV-000004",
+      "sku": "SKU-1008",
+      "movement_type": "adjust",
+      "quantity_change": -2,
+      "quantity_before": 2,
+      "quantity_after": 0,
+      "reason": "Cycle count: 2 units found damaged",
+      "performed_by": "Inventory Operator",
+      "timestamp": "2026-10-25T14:05:00Z"
+    }
+  ]
+}
